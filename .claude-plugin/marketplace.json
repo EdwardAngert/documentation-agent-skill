@@ -1,0 +1,19 @@
+{
+  "name": "documentation-agent-marketplace",
+  "owner": {
+    "name": "Edward Angert"
+  },
+  "plugins": [
+    {
+      "name": "documentation-agent",
+      "version": "0.1.0",
+      "description": "Technical writing expertise and documentation best practices for Claude Code. Provides methodologies for content audits, information architecture, style enforcement, and docs-as-code workflows.",
+      "author": {
+        "name": "Edward Angert"
+      },
+      "repository": "https://github.com/EdwardAngert/documentation-agent-skill",
+      "license": "Apache-2.0",
+      "source": "./"
+    }
+  ]
+}
