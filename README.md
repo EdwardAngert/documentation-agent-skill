@@ -5,9 +5,25 @@ Provides methodologies for content audits, information architecture design, styl
 
 ## Install the Plugin
 
-```bash
-claude plugin install EdwardAngert/documentation-agent-skill
-```
+1. Open Claude Code:
+
+   ```bash
+   claude
+   ```
+
+1. Add this repository (or your fork) as a [plugin marketplace](https://code.claude.com/docs/en/plugin-marketplaces):
+
+   ```bash
+   /plugin marketplace add EdwardAngert/documentation-agent-skill
+   ```
+
+1. Install the plugin:
+
+   ```bash
+   /plugin install EdwardAngert/documentation-agent-skill
+   ```
+
+1. Restart Claude Code.
 
 ## How It Works
 
