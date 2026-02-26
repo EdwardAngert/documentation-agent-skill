@@ -11,6 +11,7 @@
   ],
   "commands": [
     "./commands/draft.md",
+    "./commands/plan.md",
     "./commands/audit.md",
     "./commands/make-examples.md"
   ]

@@ -14,7 +14,8 @@
 
 ## Commands
 
-- [/draft](commands/draft.md): Guided workflow for SMEs to contribute documentation — the primary interaction
+- [/draft](commands/draft.md): Guided workflow for SMEs to contribute a single document
+- [/plan](commands/plan.md): Plan a full documentation set — user journeys, content types, priorities, and writing order
 - [/audit](commands/audit.md): Systematic documentation audit for quality, gaps, and structure
 - [/make-examples](commands/make-examples.md): Add or improve code examples in existing docs
 

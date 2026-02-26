@@ -74,6 +74,19 @@ Claude will:
 - Produce a formatted draft you can review for accuracy
 - Refine based on your feedback and write the final file
 
+### `/documentation-agent:plan [repo or description]`
+
+Plan a full documentation set for a project.
+Use when you need to document something from scratch or reorganize existing docs into a coherent structure.
+
+Claude will:
+
+- Read the codebase to understand the project
+- Ask about your users, their goals, and how deep to go
+- Map user journeys and identify what docs need to exist
+- Propose a prioritized plan with content types, audiences, and writing order
+- Execute the plan doc by doc once you approve it
+
 ### `/documentation-agent:audit [path]`
 
 Run a documentation audit on a directory or file:
