@@ -77,6 +77,23 @@ If you want a more structured experience, use the `/draft` command:
 This walks you through a step-by-step intake: what you're documenting, who it's for, what the reader should be able to do, prerequisites, steps, gotchas.
 It's useful when you're starting from scratch on a topic rather than improving something that already exists.
 
+### Plan a Full Documentation Set
+
+If you need to document a whole project — not just one page — use the plan command:
+
+```text
+/documentation-agent:plan
+```
+
+Claude will read the codebase, ask you about your users and their goals, map out the user journeys, and propose a prioritized list of docs to write before writing any of them.
+Use this for:
+
+- New projects that have no documentation yet
+- Existing projects with scattered docs that need a coherent structure
+- Onboarding a team to a tool and needing to document it for them
+
+Once you agree on the plan, Claude works through it doc by doc.
+
 ### Add Examples to Existing Docs
 
 If a doc already exists but is missing code examples, use:
@@ -92,5 +109,4 @@ Claude Code will identify sections that need examples, write safe copy-paste rea
 The plugin doesn't make decisions about *what* to document or *where* it should live in your docs site's navigation.
 It'll suggest a filename and location based on existing conventions in the repo, but if your team has a specific process for that (like a docs review board or a content calendar), you still follow that.
 
-It also won't commit changes without you reviewing them.
-Every draft is presented for your review before it's written to a file.
+It also won't write the file without you reviewing the draft first.

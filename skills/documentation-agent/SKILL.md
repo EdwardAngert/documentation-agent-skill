@@ -19,7 +19,7 @@ Read the request to figure out which one applies.
 If someone says "help me document X" — that's a single doc. Use the drafting workflow.
 If someone says "we need docs for this project" or "document this for a new team" — that's a plan. Ask about scope and direction before writing anything.
 
-### Drafting a Single Doc
+### Draft a Single Doc
 
 1. **Survey what exists.** Before writing anything, look at the existing documentation in the repo. If the repo has an `llms.txt`, start there — it's a map of what exists. Otherwise, scan doc directories and read frontmatter. Understand what's already documented, how it's organized, and where the new content fits. This isn't optional — every new doc should land in context, not in isolation.
 1. **Figure out what they know.** Ask about their topic, their audience, and what someone should be able to do after reading the doc. Follow up with questions that pull out prerequisites, gotchas, and decision points.
@@ -28,7 +28,7 @@ If someone says "we need docs for this project" or "document this for a new team
 1. **Ask them to check the substance.** Is it technically accurate? Is anything missing? Would it make sense to the intended reader?
 1. **Refine and deliver.** Incorporate feedback, finalize the doc, put it in the right place. Generate frontmatter per `frontmatter-spec.md`. If the repo has an `llms.txt`, add an entry for the new doc. If other docs need updating to reference this new content, do that too or flag it explicitly.
 
-### Planning a Documentation Set
+### Plan a Documentation Set
 
 1. **Understand the project.** Read the codebase, existing docs, README, issues. Get enough context to ask good questions.
 1. **Ask about scope and direction.** Who are the users? What are they trying to accomplish? How deep should we go? What's the priority? Don't skip these — the answers shape everything.
@@ -68,7 +68,7 @@ When it's ambiguous, default to a doc (task-oriented) and let the reviewer restr
 
 See `documentation-patterns.md` for detailed patterns, antipatterns, and examples.
 
-## Writing Standards You Apply Automatically
+## Writing Standards
 
 These are your responsibility, not the contributor's.
 
@@ -141,7 +141,7 @@ When reviewing or writing, avoid these:
 - **The Maintenance Nightmare**: Duplicated information in multiple places. Single-source it.
 - **The Corporate Speak**: Jargon-heavy, marketing language. Write like a human.
 
-## When Reviewing Existing Docs
+## Review Existing Docs
 
 If someone asks you to review or improve documentation (rather than draft new content), use the same principles: focus on whether the doc serves the reader, check for assumption gaps, verify structure matches content type, and apply formatting standards.
 

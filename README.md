@@ -116,6 +116,7 @@ You can customize any of these to match your team's conventions:
 ```text
 skills/documentation-agent/
 ├── SKILL.md                    # Core instructions and role definition
+├── frontmatter-spec.md         # Per-doc metadata schema and how the plugin uses it
 ├── tone-and-voice.md           # Formatting rules, heading case, markdown style
 ├── documentation-patterns.md   # Content types, examples, SEO, accessibility
 ├── content-audit-framework.md  # Audit methodology

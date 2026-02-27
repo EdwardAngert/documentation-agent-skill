@@ -69,7 +69,11 @@ The plugin ships with defaults (AP title case, action-oriented headings, specifi
 1. Restart Claude Code.
 
 Once installed, the plugin activates automatically whenever someone asks for documentation help.
-No special commands required — though `/documentation-agent:draft` walks through a more structured intake if you want it.
+No special commands required.
+Two commands are worth knowing:
+
+- `/documentation-agent:draft` — guided intake for a single document. Useful when a contributor wants a structured walkthrough: topic, audience, prerequisites, steps.
+- `/documentation-agent:plan` — for "we need docs for this project" moments. Reads the codebase, asks about users and goals, and produces a prioritized doc plan before writing anything. Start here when rolling out documentation for a new project or team.
 
 ## Customize for Your Team
 

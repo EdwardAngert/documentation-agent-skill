@@ -61,7 +61,8 @@ A "configure for production" journey might need a configuration reference and a 
 
 ### 4. Propose a Docs Plan
 
-Present the plan as a structured list of docs to write, organized by priority.
+Write the plan to a file — `docs/plan.md` by default, or wherever the contributor prefers.
+Present it as a structured list of docs to write, organized by priority.
 For each doc, specify:
 
 - **Title** — what the doc will be called
@@ -105,7 +106,7 @@ Each doc follows the `/draft` workflow:
 - Write, review, refine, finalize
 - Update `llms.txt` and cross-references
 
-As you write each doc, update the plan:
+As you write each doc, update the plan file:
 
 - Mark completed docs
 - Note new docs that emerged during writing (this is normal — writing one doc often reveals the need for another)

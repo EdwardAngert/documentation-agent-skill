@@ -124,7 +124,7 @@ In step 7 (Finalize), the plugin generates frontmatter for the new doc:
 - `keywords` are extracted from the doc's content — terms the plugin identifies as significant
 - `prerequisites` and `related` come from the survey step (step 1) — the plugin already knows what other docs exist
 
-### When Surveying Existing Docs
+### Survey Existing Docs
 
 In step 1 of any workflow, the plugin scans existing docs.
 If docs have frontmatter, the plugin reads it instead of reading full doc bodies.
@@ -137,7 +137,7 @@ Specifically, the plugin uses:
 - `related` and `prerequisites` to understand how docs connect
 - `description` to understand what each doc covers without reading it
 
-### When Auditing (`/audit`)
+### Audit with `/audit`
 
 The audit command checks frontmatter as part of its review:
 
@@ -146,7 +146,7 @@ The audit command checks frontmatter as part of its review:
 - Broken `prerequisites` and `related` paths are reported
 - Inconsistent `content-type` usage is identified
 
-## Adapting to Existing Repos
+## Adapt to Existing Repos
 
 Most repos already have some frontmatter.
 SSGs like Docusaurus, Hugo, Jekyll, and Astro each have their own conventions and required fields.
@@ -167,11 +167,15 @@ This survey produces a mental model of the repo's frontmatter conventions that t
 
 1. **Never overwrite existing fields.** If a doc already has `title`, `description`, `tags` — they stay as they are. The contributor or SSG config put them there for a reason.
 2. **Match existing field names.** If the repo uses `tags`, the plugin uses `tags` — not `keywords`. If it uses `type`, the plugin uses `type` — not `content-type`. The repo's convention wins.
-3. **Preserve SSG-required fields.** Fields like `sidebar_position`, `slug`, `weight`, `layout`, and `draft` are there because the build system needs them. Never remove or reorder them.
+3. **Preserve SSG-required fields.** Fields like the following are there because the build system needs them. Never remove or reorder them.
+   - Docusaurus: `sidebar_position`, `sidebar_label`, `slug`
+   - Hugo: `weight`, `layout`, `draft`
+   - Jekyll: `layout`, `permalink`, `published`, `categories`
+   - Astro: `draft`, `pubDate`, `heroImage`
 4. **Add missing fields alongside existing ones.** If a doc has `title` and `description` but no content type or keywords equivalent, the plugin adds those using the repo's naming convention (or its own defaults if no convention exists).
 5. **Don't duplicate semantics.** If the repo already has `tags` and the plugin would add `keywords`, it uses `tags`. One field per concept.
 
-### Documenting the Mapping
+### Document the Mapping
 
 If the repo uses non-standard field names, note the mapping in `llms.txt` so the next session (or a different AI tool) doesn't have to re-derive it.
 For example:
