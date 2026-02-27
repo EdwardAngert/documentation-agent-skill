@@ -69,13 +69,13 @@ The plugin ships with defaults (AP title case, action-oriented headings, specifi
 1. Add the marketplace:
 
    ```bash
-   /plugin marketplace add EdwardAngert/documentation-agent-skill
+   /plugin marketplace add EdwardAngert/docs-agent-plugin
    ```
 
 1. Install the plugin:
 
    ```bash
-   /plugin install EdwardAngert/documentation-agent-skill
+   /plugin install EdwardAngert/docs-agent-plugin
    ```
 
 1. Restart Claude Code.

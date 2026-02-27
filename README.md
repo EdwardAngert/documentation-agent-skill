@@ -21,13 +21,13 @@ Think of it as having a technical writer in every Claude Code session — one wh
 1. Add this repository as a [plugin marketplace](https://code.claude.com/docs/en/plugin-marketplaces):
 
    ```bash
-   /plugin marketplace add EdwardAngert/documentation-agent-skill
+   /plugin marketplace add EdwardAngert/docs-agent-plugin
    ```
 
 1. Install the plugin:
 
    ```bash
-   /plugin install EdwardAngert/documentation-agent-skill
+   /plugin install EdwardAngert/docs-agent-plugin
    ```
 
 1. Restart Claude Code.

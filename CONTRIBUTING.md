@@ -4,7 +4,7 @@ Thanks for your interest in contributing.
 
 ## Report Issues
 
-Open an issue at [github.com/EdwardAngert/documentation-agent-skill/issues](https://github.com/EdwardAngert/documentation-agent-skill/issues) for:
+Open an issue at [github.com/EdwardAngert/docs-agent-plugin/issues](https://github.com/EdwardAngert/docs-agent-plugin/issues) for:
 
 - Bug reports
 - Feature requests
@@ -38,7 +38,7 @@ Good contributions:
 Install your local version:
 
 ```bash
-claude plugin install /path/to/documentation-agent-skill
+claude plugin install /path/to/docs-agent-plugin
 ```
 
 Test commands and skill behavior before submitting.
