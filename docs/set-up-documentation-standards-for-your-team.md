@@ -1,3 +1,15 @@
+---
+title: "Set Up Documentation Standards for Your Team"
+description: "Install and configure the Documentation Agent plugin for your team — what changes for contributors, how to customize writing standards, and how to run your first audit."
+content-type: doc
+audience: docs-leads
+keywords:
+  - documentation standards
+  - plugin setup
+  - technical writing
+  - team onboarding
+---
+
 # Set Up Documentation Standards for Your Team
 
 You have people who know things.

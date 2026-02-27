@@ -114,7 +114,7 @@ Helps AI tools and search filter by language.
 
 ## How the Plugin Uses Frontmatter
 
-### When Writing (the `/draft` workflow)
+### Write Docs with `/draft`
 
 In step 7 (Finalize), the plugin generates frontmatter for the new doc:
 

@@ -131,7 +131,7 @@ See `tone-and-voice.md` for detailed formatting and voice guidelines.
 > Line breaks after periods is a style choice.
 > It improves diff readability but some teams prefer reflowed paragraphs.
 
-## Antipatterns to Watch For
+## Documentation Antipatterns
 
 When reviewing or writing, avoid these:
 

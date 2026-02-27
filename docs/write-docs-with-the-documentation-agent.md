@@ -1,3 +1,15 @@
+---
+title: "Write Docs With the Documentation Agent"
+description: "How to use the Documentation Agent plugin as a contributor — starting a draft, giving useful input, reviewing for accuracy, and using the /draft, /plan, and /make-examples commands."
+content-type: guide
+audience: contributors
+keywords:
+  - documentation
+  - contributor guide
+  - draft command
+  - technical writing
+---
+
 # Write Docs With the Documentation Agent
 
 If the Documentation Agent plugin is installed in your Claude Code setup, Claude Code has documentation expertise built in.
