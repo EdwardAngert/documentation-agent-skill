@@ -7,6 +7,7 @@ keywords:
   - documentation
   - contributor guide
   - draft command
+  - plan command
   - technical writing
 ---
 
